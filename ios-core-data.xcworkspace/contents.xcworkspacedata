@@ -2,6 +2,21 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Driver+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
+      location = "group:Driver.swift">
+   </FileRef>
+   <FileRef
+      location = "group:Car+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
+      location = "group:MappingModel.xcmappingmodel">
+   </FileRef>
+   <FileRef
+      location = "group:Car.swift">
+   </FileRef>
+   <FileRef
       location = "group:ios-core-data.xcodeproj">
    </FileRef>
    <FileRef

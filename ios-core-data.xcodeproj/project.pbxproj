@@ -13,6 +13,11 @@
 		B484BF581C1FF01F00F6E507 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B484BF561C1FF01F00F6E507 /* Main.storyboard */; };
 		B484BF5A1C1FF01F00F6E507 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B484BF591C1FF01F00F6E507 /* Assets.xcassets */; };
 		B484BF5D1C1FF01F00F6E507 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B484BF5B1C1FF01F00F6E507 /* LaunchScreen.storyboard */; };
+		B484BF661C1FF13400F6E507 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B484BF641C1FF13400F6E507 /* Model.xcdatamodeld */; };
+		B484BF6B1C1FF66200F6E507 /* Driver+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B484BF671C1FF66200F6E507 /* Driver+CoreDataProperties.swift */; };
+		B484BF6C1C1FF66200F6E507 /* Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B484BF681C1FF66200F6E507 /* Driver.swift */; };
+		B484BF6D1C1FF66200F6E507 /* Car+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B484BF691C1FF66200F6E507 /* Car+CoreDataProperties.swift */; };
+		B484BF6E1C1FF66200F6E507 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = B484BF6A1C1FF66200F6E507 /* Car.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +30,12 @@
 		B484BF591C1FF01F00F6E507 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B484BF5C1C1FF01F00F6E507 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B484BF5E1C1FF01F00F6E507 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B484BF651C1FF13400F6E507 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		B484BF671C1FF66200F6E507 /* Driver+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Driver+CoreDataProperties.swift"; path = "../Driver+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		B484BF681C1FF66200F6E507 /* Driver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Driver.swift; path = ../Driver.swift; sourceTree = "<group>"; };
+		B484BF691C1FF66200F6E507 /* Car+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Car+CoreDataProperties.swift"; path = "../Car+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		B484BF6A1C1FF66200F6E507 /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Car.swift; path = ../Car.swift; sourceTree = "<group>"; };
+		B484BF6F1C1FF96300F6E507 /* Model 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Model 2.xcdatamodel"; sourceTree = "<group>"; };
 		D49C094751A8543AE16FDF58 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,6 +71,7 @@
 		B484BF461C1FF01F00F6E507 = {
 			isa = PBXGroup;
 			children = (
+				B484BF641C1FF13400F6E507 /* Model.xcdatamodeld */,
 				B484BF511C1FF01F00F6E507 /* ios-core-data */,
 				B484BF501C1FF01F00F6E507 /* Products */,
 				6F99995DCEE446E9D2B08304 /* Pods */,
@@ -78,6 +90,10 @@
 		B484BF511C1FF01F00F6E507 /* ios-core-data */ = {
 			isa = PBXGroup;
 			children = (
+				B484BF671C1FF66200F6E507 /* Driver+CoreDataProperties.swift */,
+				B484BF681C1FF66200F6E507 /* Driver.swift */,
+				B484BF691C1FF66200F6E507 /* Car+CoreDataProperties.swift */,
+				B484BF6A1C1FF66200F6E507 /* Car.swift */,
 				B484BF521C1FF01F00F6E507 /* AppDelegate.swift */,
 				B484BF541C1FF01F00F6E507 /* ViewController.swift */,
 				B484BF561C1FF01F00F6E507 /* Main.storyboard */,
@@ -210,8 +226,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B484BF6C1C1FF66200F6E507 /* Driver.swift in Sources */,
 				B484BF551C1FF01F00F6E507 /* ViewController.swift in Sources */,
+				B484BF6B1C1FF66200F6E507 /* Driver+CoreDataProperties.swift in Sources */,
 				B484BF531C1FF01F00F6E507 /* AppDelegate.swift in Sources */,
+				B484BF6D1C1FF66200F6E507 /* Car+CoreDataProperties.swift in Sources */,
+				B484BF6E1C1FF66200F6E507 /* Car.swift in Sources */,
+				B484BF661C1FF13400F6E507 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,6 +385,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B484BF641C1FF13400F6E507 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B484BF6F1C1FF96300F6E507 /* Model 2.xcdatamodel */,
+				B484BF651C1FF13400F6E507 /* Model.xcdatamodel */,
+			);
+			currentVersion = B484BF6F1C1FF96300F6E507 /* Model 2.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = B484BF471C1FF01F00F6E507 /* Project object */;
 }

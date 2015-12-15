@@ -14,6 +14,19 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+       let predicate = NSPredicate(format: "year > 2000")
+       let fr = NSFetchRequest(entityName: "Car")
+        fr.predicate = predicate
+        
+       let context =  NSManagedObjectContext.MR_contextForCurrentThread()
+        
+        do {
+          let array = try context.executeFetchRequest(fr)
+            
+        } catch {  }
+    
+            
         // Do any additional setup after loading the view, typically from a nib.
     }
 
